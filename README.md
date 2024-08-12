@@ -93,7 +93,7 @@ The below section will provide a guide on methods to follow to illustrate how to
 
 4. Navigate to your `Downloads` folder and right-click on the file named `moosa-and-the-pips-main.zip`. Click on `Extract All...`.
 
-![Alt text](images/zip_extract_rightclick.PNG)
+![Alt text](images/zip_extract_rightclick.png)
 
 5. When the `Extract Compressed (Zipped) Folders` wizard opens, type <a class="anchor" id="directory">`C:\Demo`</a> in the text box beneath `Files will be extracted to this folder:`. Click on `Extract` button.
 
