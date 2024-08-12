@@ -122,7 +122,7 @@ The below section details how to recreate the coding environment necessary to ru
 
 2. Click on `Start` menu
 
-![Alt text](images/search.PNG)
+![Alt text](images/search.png)
 
 3. Type `Command prompt` in the search bar
 
