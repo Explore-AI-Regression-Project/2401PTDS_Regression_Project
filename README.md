@@ -109,10 +109,10 @@ The below section will provide a guide on methods to follow to illustrate how to
 
 It's highly recommended to use a virtual environment for your projects, there are many ways to do this; we've outlined one such method below. Make sure to regularly update this section. This way, anyone who clones your repository will know exactly what steps to follow to prepare the necessary environment. The instructions provided here should enable a person to clone your repo and quickly get started.
 
-## Setting up the coding environment
+### Setting up the coding environment
 The below section details how to recreate the coding environment necessary to run all the Jupyter Notebook files contained in this project. Three (3) methods will be discussed below to assist with setting up the necessary coding environment.
 
-### Set-up using Python and CMD (Command prompt)
+#### Set-up using Python and CMD (Command prompt)
 
 **Note:** For this method, the only installation you will need to do before creating the environment is to install the latest version of `Python` on your local machine that you plan to use to run the Notebook files.
 
@@ -196,7 +196,7 @@ The below section details how to recreate the coding environment necessary to ru
 
 ![Alt text](images/cmd_env_opened.png)
 
-## Set-up using conda and Anaconda Prompt
+#### Set-up using conda and Anaconda Prompt
 
 **Note:** For this method to work, you need to ensure that you have the latest version of `Anaconda Navigator` installed on your local machine that you plan to use to run the Notebook files.
 
@@ -308,28 +308,3 @@ The below section details how to recreate the coding environment necessary to ru
 - [Make a README](https://www.makeareadme.com/)
 - [GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 - [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
-
-
-
-
-# Example of HTML in Markdown
-
-<p>Click the "Try it" button to toggle between hiding and showing the DIV element:</p>
-
-<button onclick="toggleVisibility()">Try it</button>
-
-<div id="myDIV">
-This is my DIV element.
-</div>
-
-<p><b>Note:</b> The element will not take up any space when the display property 
-is set to "none".</p>
-
-<script>
-function toggleVisibility() {
-  var x = document.getElementById("myDIV");
-  // Toggle display property between "none" and "block"
-  x.style.display = (x.style.display === "none") ? "block" : "none";
-}
-</script>
-
