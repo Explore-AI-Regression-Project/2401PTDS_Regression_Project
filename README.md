@@ -297,7 +297,7 @@ The below section details how to recreate the coding environment necessary to ru
 | Name                                                                                        |  Email              
 |---------------------------------------------------------------------------------------------|--------------------             
 | [Robert Breedt](https://github.com/Robert-Breedt)                                           | breedtrobert@yahoo.com
-| [Lindelwa Ndhlovu]()                                                                        | 
+| [Lindelwa Ndhlovu](LindelwaNdhlovu)                                                         | gatshenindhlovu@gmail.com
 | [Christiaan De Beer](https://github.com/Christiaandebeer1986)                               | debeerchristiaan@gmail.com 
 | [Philani Hlengwa](https://github.com/Philani-Hlengwa)                                       | senzo.philani@gmail.com
 | [Nomvunulo Mpontshane](https://github.com/Nomvunulo-Mpontshane)                             | nomvunulom@gmail.com
