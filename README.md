@@ -196,6 +196,102 @@ The below section details how to recreate the coding environment necessary to ru
 
 ![Alt text](images/cmd_env_opened.png)
 
+## Set-up using conda and Anaconda Prompt
+
+**Note:** For this method to work, you need to ensure that you have the latest version of `Anaconda Navigator` installed on your local machine that you plan to use to run the Notebook files.
+
+1. Ensure that you have the latest version of `Anaconda Navigator` installed (as of writing on 13-08-2024, the latest version was 2.6.2). The latest version of `Anaconda Navigator` can be found by clicking here: <a href="https://www.anaconda.com/download/success">Anaconda Navigator</a>. Ensure that you select the correct operating system for your machine as per the options provided on the website. Click on the version you want to download and, once downloaded, follow the prompts to ensure `Anaconda Navigator` is installed on your machine.
+
+![Alt text](images/jupyter_install.png)
+
+2. Click on `Start` menu
+
+![Alt text](images/search.png)
+
+3. Type `Anaconda prompt` in the search bar
+
+![Alt text](images/anaconda_prompt_search.png)
+
+4. Click on `Open` in the Anaconda prompt menu that appears in the search results. (**NOTE:** You may need to select `Run as administrator`)
+
+![Alt text](images/anaconda_prompt_search.png)
+
+5. Anaconda prompt opens up
+
+![Alt text](images/conda_prompt.png)
+
+6. Type the command `cd C:\Users`. Press `Enter`. **Note:** you can use any path you wish here, using `C:\Users` for demo purposes, but you will most likely use the path <a class="anchor" id="directory">`C:\Demo`</a> you created earlier when you cloned the repo.
+
+![Alt text](images/conda_cd.png)
+![Alt text](images/conda_changed_direct.png)
+
+7. Type the command `conda create -n .Explore python`. Press `Enter`.
+
+![Alt text](images/conda_create_env_start.png)
+
+8. Wait a few seconds for the environment to be configured until the prompt `Proceed ([y]/n) ?` appears. Type `y` next to the prompt. Press `Enter`.
+
+![Alt text](images/conda_create_env_prompt.png)
+
+9. Wait a few seconds for the environment to be set up and configured inside your `Anaconda Navigator`. The Anaconda prompt will notify once it is complete by providing the message `Executing transaction: done`. Confirm this message appears in your Anaconda prompt and that you are able to start typing again in the Anaconda prompt (your cursor should start blinking again). Once confirmed, open your `Anaconda Navigator` and click on `Environments` tab.
+
+![Alt text](images/conda_create_env_done.png)
+
+![Alt text](images/ananavigator_env.png)
+
+10. Once inside the `Environments` tab, take note that your newly created `.Explore` environment appears in the list of available environments. Click on the `.Explore` environment to activate it.
+
+![Alt text](images/ananavigator_env_locate.png)
+
+11. Once the `.Explore` environment is open, take note that `Anaconda Navigator` will display a list of packages already installed when the `conda create -n .Explore python` command was used earlier inside Anaconda prompt. Also take note if you scroll through Anaconda prompt, you can also confirm these environments are installed.
+
+![Alt text](images/ananavigator_env_confirm.png)
+![Alt text](images/conda_env_confirm.png)
+
+12. Return to Anaconda prompt and type `conda activate .Explore`. Press `Enter`.
+
+![Alt text](images/conda_env_activate.png)
+
+13. Wait for the command to finish running. You will notice that your Anaconda prompt now has `(.Explore)` prepended to it. You have now activated this new environment created earlier.
+
+![Alt text](images/conda_env_activated.png)
+
+14. Type the command `pip install -r requirements.txt`. Press `Enter`. **NOTE:** It is critical that the `requirements.txt` file is located in your directory <a class="anchor" id="directory">`C:\Demo`</a> where you cloned your repo as well as where you are currently creating your environment. If the file is note present, no installation of the required packages will take place.
+
+![Alt text](images/conda_pip_requirements.png)
+
+15. Please be patient as this command will install all the required packages to run all the code contained in the Notebooks on this repo in your newly created `.Explore` environment. Take note that this installation could take a few minutes to complete - remain patient. The `requirements.txt` file contains the package name and package version that will be needed to the run necessary code and must be installed for this environment to function properly when running code from the notebooks.
+
+16. The installation will show the message `Installing collected packages:` while it is busy installing the packages contained in the `requirements.txt` file in the Anaconda prompt.
+
+![Alt text](images/conda_pip_requirements_installing.png)
+
+17. The installation will complete when the message `Successfully installed` is displayed. The cursor will also return to your Anaconda prompt to allow you start typing again.
+
+![Alt text](images/conda_pip_requirements_installed.png)
+
+18. Type the command `pip install jupyter`. Press `Enter`.
+
+![Alt text](images/conda_pip_jupyter.png)
+
+19. Please be patient as this command will install Jupyter Notebook in your newly created `.Explore` environment. Take note that this installation could take a few minutes to complete - remain patient. Jupyter Notebook is what will be used to display our notebooks and run all the code contained within.
+
+20. The installation will show the message `Installing collected packages:` while it is busy installing the Jupyter packages in the Anaconda prompt.
+
+![Alt text](images/conda_pip_jupyter_installing.png)
+
+21. The installation will complete when the message `Successfully installed` is displayed. The cursor will also return to your Anaconda prompt to allow you start typing again.
+
+![Alt text](images/conda_pip_jupyter_installed.png)
+
+22. Type the command `jupyter notebook`. Press `Enter`.
+
+![Alt text](images/conda_jupyter_notebook.png)
+
+23. Also take note that once you see Jupyter Notebook open up in your browser, you are free to start browsing for and opening all Notebook files in this project and have successfully created a new virtual environment.
+
+![Alt text](images/conda_env_opened.png)
+
 ## 6. Team Members<a class="anchor" id="team-members"></a>
 
 | Name                                                                                        |  Email              
