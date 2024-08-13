@@ -312,23 +312,7 @@ The below section details how to recreate the coding environment necessary to ru
 
 
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-#myDIV {
-  width: 100%;
-  padding: 50px 0;
-  text-align: center;
-  background-color: lightblue;
-  margin-top: 20px;
-  display: block; /* Ensures the div is visible by default */
-}
-</style>
-</head>
-<body>
+# Example of HTML in Markdown
 
 <p>Click the "Try it" button to toggle between hiding and showing the DIV element:</p>
 
@@ -348,7 +332,4 @@ function toggleVisibility() {
   x.style.display = (x.style.display === "none") ? "block" : "none";
 }
 </script>
-
-</body>
-</html>
 
