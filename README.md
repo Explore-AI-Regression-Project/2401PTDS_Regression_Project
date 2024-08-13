@@ -312,6 +312,8 @@ The below section details how to recreate the coding environment necessary to ru
 
 
 
+```html
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -322,6 +324,7 @@ The below section details how to recreate the coding environment necessary to ru
   text-align: center;
   background-color: lightblue;
   margin-top: 20px;
+  display: block; /* Ensures the div is visible by default */
 }
 </style>
 </head>
@@ -329,7 +332,7 @@ The below section details how to recreate the coding environment necessary to ru
 
 <p>Click the "Try it" button to toggle between hiding and showing the DIV element:</p>
 
-<button onclick="myFunction()">Try it</button>
+<button onclick="toggleVisibility()">Try it</button>
 
 <div id="myDIV">
 This is my DIV element.
@@ -339,15 +342,13 @@ This is my DIV element.
 is set to "none".</p>
 
 <script>
-function myFunction() {
+function toggleVisibility() {
   var x = document.getElementById("myDIV");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+  // Toggle display property between "none" and "block"
+  x.style.display = (x.style.display === "none") ? "block" : "none";
 }
 </script>
 
 </body>
 </html>
+
